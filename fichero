@@ -1,0 +1,14 @@
+RECETA SPARKSQLCONNECTOR
+
+mvn crossdata-connector:install -DskipTests
+
+//ver configuración en conf
+vi connector-application.conf
+
+/desarrollo/workspace/stratio-connector-sparkSQL/connector-sparkSQL/target/stratio-connector-sparksql-0.1.0-SNAPSHOT$ 
+
+sudo ./bin/stratio-connector-sparksql-0.1.0-SNAPSHOT start
+
+tail -500f logs
+
+
